@@ -7,7 +7,7 @@ contract AIGenFT is ERC721URIStorage {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIDCounter;
 
-    constructor() ERC721("BurnCollection","WBC") {}
+    constructor() ERC721("Filler","FIL") {}
     
     function createToken(string memory tokenURI) public returns (uint256) {        
         _tokenIDCounter.increment();
